@@ -17,9 +17,12 @@ const Header = () => {
             <PinterestIcon />
           </IconButton>
         </div>
-        <div className="header__button homePage">Home</div>
-        <div className="header__button today">Today</div>
-        <div className="header__button following">Following</div>
+        <div className="header__button homePage">
+          <a href="/">Homepage</a>
+        </div>
+        <div className="header__button following">
+          <a href="/">Following</a>
+        </div>
         <div className="header__search">
           <div className="header__searchContainer">
             <IconButton>

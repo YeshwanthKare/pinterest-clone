@@ -7,15 +7,10 @@ body {
   background-color: white;
 }
 
-.app {
-  /* display: flex; */
-  background-color: pink;
-}
-
 .app__header {
   flex: 1 1 auto;
-  background-color: pink;
-  padding: 12px 4px 4px 16px;
+  height: 80px;
+  padding: 12px 4px 10px 12px;
   box-sizing: border-box;
   align-items: center;
 }

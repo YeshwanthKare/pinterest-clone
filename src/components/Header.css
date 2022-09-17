@@ -7,6 +7,12 @@
   margin: 0px;
 }
 
+.header__logo .MuiSvgIcon-root {
+  color: #e60023;
+  font-size: 32px;
+  cursor: pointer;
+}
+
 .header__search {
   flex: 1;
 }
@@ -49,4 +55,35 @@
 
 .header__searchContainer > form > button {
   display: none;
+}
+
+.header__button {
+  display: flex;
+  height: 48px;
+  min-width: 123px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background-color: rgb(17, 17, 17);
+  cursor: pointer;
+}
+
+.homePage > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.following {
+  background-color: white;
+}
+
+.following:hover {
+  background-color: #e1e1e1;
+}
+
+.following > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
 }
