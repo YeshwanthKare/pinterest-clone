@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import MainBoard from "./components/MainBoard";
 import unsplash from "./api/unsplash";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import db from "./firebase";
 
 function App() {
