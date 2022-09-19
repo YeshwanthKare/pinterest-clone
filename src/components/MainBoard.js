@@ -3,9 +3,14 @@ import Pin from "./Pin";
 import "./MainBoard.css";
 
 const MainBoard = (props) => {
+  let { pins } = props;
+
   return (
     <div className="mainboard">
-      <Pin />
+      {pins.map((pin) => {
+        let { urls } = pin;
+        return <Pin key={pin.id} urls={urls} />;
+      })}
     </div>
   );
 };
